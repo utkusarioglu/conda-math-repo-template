@@ -2,6 +2,6 @@ version: "3.9"
 
 services:
   jupyter:
-    image: utkusarioglu/python-math-devcontainer:1.0.0
+    image: utkusarioglu/conda-math-devcontainer:1.0.0
     volumes:
       - ..:/utkusarioglu-com/templates/conda-math-repo-template
